@@ -29,11 +29,11 @@ spring.datasource.password=tu_contraseña
 ```
 
 
-Paso 3: Guarda los Cambios
+## Paso 3: Guarda los Cambios
 Guarda los cambios realizados en el archivo application.properties.
 
-Paso 4: Ejecuta la Aplicación
+## Paso 4: Ejecuta la Aplicación
 Ahora puedes ejecutar tu aplicación con las nuevas credenciales de base de datos.
 Dale al boton play de tu ide
 
-¡Y eso es todo! Ahora tu aplicación utilizará las credenciales de usuario y contraseña que has especificado en el archivo de propiedades.
+🚀 ¡Y eso es todo! Ahora tu aplicación utilizará las credenciales de usuario y contraseña que has especificado en el archivo de propiedades. 🚀
