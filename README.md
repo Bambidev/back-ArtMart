@@ -37,3 +37,5 @@ Ahora puedes ejecutar tu aplicación con las nuevas credenciales de base de dato
 Dale al boton play de tu ide
 
 🚀 ¡Y eso es todo! Ahora tu aplicación utilizará las credenciales de usuario y contraseña que has especificado en el archivo de propiedades. 🚀
+
+https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDYzZms2YzFia3lhMnJ3cTVkZDk2aXJmOWYwNnRtbGY4bDV2bjcyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Oo8Ly1JXZjrqm54qK4/giphy.gif
