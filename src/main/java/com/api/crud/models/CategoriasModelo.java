@@ -11,6 +11,7 @@ import java.util.List;
 public class CategoriasModelo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "idcategorias")
     private Integer idCategorias;
 
     private String categoria;
