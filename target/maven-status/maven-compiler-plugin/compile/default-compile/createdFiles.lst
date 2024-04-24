@@ -1,0 +1,13 @@
+com\api\crud\models\PublicacionesModelo.class
+com\api\crud\services\NivelServicio.class
+com\api\crud\models\CategoriasModelo.class
+com\api\crud\models\NivelesModelo.class
+com\api\crud\repositories\INivelRepositorio.class
+com\api\crud\controllers\PublicacionController.class
+com\api\crud\CrudApplication.class
+com\api\crud\controllers\CategoriaController.class
+com\api\crud\services\PublicacionServicio.class
+com\api\crud\repositories\IPublicacionRepositorio.class
+com\api\crud\controllers\NivelController.class
+com\api\crud\services\CategoriaServicio.class
+com\api\crud\repositories\ICategoriaRepositorio.class
