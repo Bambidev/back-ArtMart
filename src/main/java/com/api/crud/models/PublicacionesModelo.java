@@ -25,6 +25,4 @@ public class PublicacionesModelo {
     
     @Column(name="urlImagen")
     private String urlImagen;
-            
-    
 }

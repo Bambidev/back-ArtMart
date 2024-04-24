@@ -16,7 +16,7 @@ import java.util.List;
 
 public class PublicacionController {
     
-     @Autowired
+    @Autowired
     private PublicacionServicio publicacionServicio;
     
  //GET
