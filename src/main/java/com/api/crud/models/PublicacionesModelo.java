@@ -25,4 +25,8 @@ public class PublicacionesModelo {
     
     @Column(name="urlImagen")
     private String urlImagen;
+
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private CategoriasModelo categoria;
 }

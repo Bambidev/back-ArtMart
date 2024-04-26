@@ -2,7 +2,6 @@ package com.api.crud.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
 import java.util.List;
 
 @Entity
@@ -17,6 +16,5 @@ public class CategoriasModelo {
     private String categoria;
 
 //    @ManyToOne
-//    private List<PublicacionModel> publicaciones;
-
+//    private List<PublicacionesModelo> publicaciones;
 }
