@@ -3,11 +3,11 @@ package com.api.crud.controllers;
 
 import com.api.crud.models.PublicacionesModelo;
 import com.api.crud.services.PublicacionServicio;
-import jakarta.persistence.Table;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 
 @RestController
@@ -31,6 +31,13 @@ public class PublicacionController {
         publicacionServicio.createPublicacion(publicacion);
         return "Creado correctamente";
     }
+
+
+    @GetMapping("/{id}")
+    private Optional<PublicacionesModelo> getPublicacionId(@PathVariable Integer id) {
+        return publicacionServicio.getCategoriaById(id);
+    }
+
     
     //PUT
     @PutMapping("/edit/{id}")

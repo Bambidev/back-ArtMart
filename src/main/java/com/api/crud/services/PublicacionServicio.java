@@ -7,6 +7,7 @@ import com.api.crud.repositories.IPublicacionRepositorio;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 
@@ -23,6 +24,10 @@ public class PublicacionServicio {
      // Crear categoria
     public PublicacionesModelo createPublicacion(PublicacionesModelo publicacion) {
         return publicacionRepositorio.save(publicacion);
+    }
+
+    public Optional<PublicacionesModelo> getCategoriaById(Integer id) {
+        return publicacionRepositorio.findById(id);
     }
 
     // Borrar categoria
