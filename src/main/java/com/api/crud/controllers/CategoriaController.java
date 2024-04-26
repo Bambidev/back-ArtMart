@@ -16,6 +16,7 @@ public class CategoriaController {
     private CategoriaServicio categoriaServicio;
 
     //GET
+    @CrossOrigin(origins = "http://localhost:5173")
     @GetMapping
     private List<CategoriasModelo> getCategorias() {
         return categoriaServicio.getAllCategorias();
