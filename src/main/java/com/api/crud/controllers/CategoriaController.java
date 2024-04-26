@@ -20,6 +20,7 @@ public class CategoriaController {
     private List<CategoriasModelo> getCategorias() {
         return categoriaServicio.getAllCategorias();
     }
+    
 
     //POST
     @PostMapping
