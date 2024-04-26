@@ -2,6 +2,7 @@ package com.api.crud.controllers;
 
 import com.api.crud.models.CategoriasModelo;
 import com.api.crud.services.CategoriaServicio;
+import jakarta.annotation.security.PermitAll;
 import jakarta.persistence.Table;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +17,11 @@ public class CategoriaController {
     private CategoriaServicio categoriaServicio;
 
     //GET
+<<<<<<< Updated upstream
     @CrossOrigin(origins = "http://localhost:5173")
+=======
+    @PermitAll
+>>>>>>> Stashed changes
     @GetMapping
     private List<CategoriasModelo> getCategorias() {
         return categoriaServicio.getAllCategorias();
